@@ -39,7 +39,7 @@ while cap.isOpened():
 
             # Tampilkan angka jari yang terangkat
             cv2.putText(frame, f"Angka: {fingers_up}", (50, 100),
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
     cv2.imshow("Hand Tracking - Deteksi Angka", frame)
 
